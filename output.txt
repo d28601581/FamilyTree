@@ -1,0 +1,100 @@
+Jones 3
+Bob 2
+Dan 0
+Brian 1
+Richard 0
+Jake 1
+Michael 1
+Bill 0
+Deville 0
+
+Bob's father: Jones
+Bob's sons: Richard Jake
+Bob's brothers: Dan Brian 
+Bob is the oldest brother
+Bob's youngest brother: Brian
+Bob oldest son: Richard
+Bob youngest son: Jake
+Bob does not have uncle
+Bob does not have a grandfather
+
+Jones does not have father
+Jones's sons: Bob Dan Brian
+Jones does not have brother
+Jones does not have oldest brother
+Jones does not have youngest brother
+Jones oldest son: Bob
+Jones youngest son: Brian
+Jones does not have uncle
+Jones does not have a grandfather
+
+Michael's father: Brian
+Michael's sons: Deville
+Michael does not have brother
+Michael does not have oldest brother
+Michael does not have youngest brother
+Michael oldest son: Deville
+Michael youngest son: Deville
+Michael's uncles: Dan Bob 
+Michael's grandfather: Jones
+
+Dan's father: Jones
+Dan does not have son
+Dan's brothers: Bob Brian 
+Dan's oldest brother: Bob
+Dan's youngest brother: Brian
+Dan does not have son
+Dan does not have son
+Dan does not have uncle
+Dan does not have a grandfather
+
+Brian's father: Jones
+Brian's sons: Michael
+Brian's brothers: Dan Bob 
+Brian's oldest brother: Bob
+Brian is the youngest brother
+Brian oldest son: Michael
+Brian youngest son: Michael
+Brian does not have uncle
+Brian does not have a grandfather
+
+Richard's father: Bob
+Richard does not have son
+Richard's brothers: Jake 
+Richard is the oldest brother
+Richard's youngest brother: Jake
+Richard does not have son
+Richard does not have son
+Richard's uncles: Dan Brian 
+Richard's grandfather: Jones
+
+Jake's father: Bob
+Jake's sons: Bill
+Jake's brothers: Richard 
+Jake's oldest brother: Richard
+Jake is the youngest brother
+Jake oldest son: Bill
+Jake youngest son: Bill
+Jake's uncles: Dan Brian 
+Jake's grandfather: Jones
+
+Bill's father: Jake
+Bill does not have son
+Bill does not have brother
+Bill does not have oldest brother
+Bill does not have youngest brother
+Bill does not have son
+Bill does not have son
+Bill's uncles: Richard 
+Bill's grandfather: Bob
+
+Deville's father: Michael
+Deville does not have son
+Deville does not have brother
+Deville does not have oldest brother
+Deville does not have youngest brother
+Deville does not have son
+Deville does not have son
+Deville does not have uncle
+Deville's grandfather: Brian
+
