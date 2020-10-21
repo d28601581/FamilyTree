@@ -20,4 +20,4 @@ Bill      0 (the one son of Jake)
 Deville   0 (the one son of Michael)
 
 # Output
-The output would print out the relationships of each member.
+The output would first print out name of each member and the number of their sons, then it will print out the relationships of each member.
