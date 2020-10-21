@@ -21,7 +21,7 @@ public class tree {
 	
 	private void addleft(String name, int num){
 		if (this.left != null) {      
-		     System.out.println( "Can¡¯t add left son, something is already there");
+		     System.out.println( "CanÂ¡Â¯t add left son, something is already there");
 		    } else {
 		    	tree q = new tree(name, num);
 		    	this.left = q;
@@ -31,7 +31,7 @@ public class tree {
 	
 	private void addright(String name, int num){
 		if (this.right != null) {      
-	     System.out.println( "Can¡¯t add right son, something is already there");
+	     System.out.println( "CanÂ¡Â¯t add right son, something is already there");
 	    } else {
 	    	tree q = new tree(name, num);
 	    	this.right = q;
@@ -49,10 +49,10 @@ public class tree {
 		tree root = new tree(input.next(), input.nextInt());
 		output.println(root.name + " " + root.num);
 		while (input.hasNext()) {
-			intrav(root, output, input);
+			intrav(root, output, input); //each time the function runs, it adds a generation to the binary tree
 		}
 		output.println();
-		intrav(root, output, "Bob");
+		intrav(root, output, "Bob"); //print the relationships of Bob
 		intrav(root, output, "Jones");
 		intrav(root, output, "Michael");
 		intrav(root, output, "Dan");
@@ -67,7 +67,7 @@ public class tree {
 		input.close();
 	}
 	
-	public static void intrav(tree p, PrintWriter output, Scanner input) throws IOException{
+	public static void intrav(tree p, PrintWriter output, Scanner input) throws IOException{ 
         if (p!=null){
         intrav(p.left, output, input);
         tree temp = new tree();
