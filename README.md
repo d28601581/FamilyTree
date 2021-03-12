@@ -1,4 +1,4 @@
-# FamilyTree
+# Family Tree
 This program was from my data structure class. The program take input from a txt file with name of the father and the number of the sons to create a Left-Child Right-Sibling binary tree. The root of the binary tree will be the grandfather, the first son of the grandfather would be the left node and the rest of the sons would be the right node of their brothers.
 
 For example: A is the grandfather, B-G are a's sons, H-J are sons of B, and N-O are sons of H.
